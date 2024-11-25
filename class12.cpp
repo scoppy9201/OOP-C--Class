@@ -45,8 +45,8 @@ istream& operator>>(istream& is, MangSoNguyen& msn)
 	getline(is, msn.TenMang);
 	cout << "Nhap so luong phan tu: ";
 	is >> msn.phantu;
-	msn.mang = new int[msn.phantu]; // cap phat lai bo nho
 	
+	msn.mang = new int[msn.phantu]; // cap phat lai bo nho
 	cout << "Nhap " << msn.phantu << " phan tu cho mang: " << endl;
 	for(int i = 0; i < msn.phantu; ++i){
 		cout << "Nhap phan tu thu " << i+1;

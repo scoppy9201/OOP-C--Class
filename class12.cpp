@@ -42,7 +42,6 @@ MangSoNguyen::~MangSoNguyen()
 istream& operator>>(istream& is, MangSoNguyen& msn)
 {
 	cout << "Nhap ten mang: ";
-	is >> msn.TenMang;
 	getline(is, msn.TenMang);
 	cout << "Nhap so luong phan tu: ";
 	is >> msn.phantu;

@@ -1,11 +1,11 @@
-/* Bài 2. Xây dung lop mang mot chieu gom n so nguyên. Du lieu thanh phan gom:ten mang, so phan tu trong mang.  Các hàm thành phan gom:
- - Hàm tao, ham huy
+/* BÃ i 2. XÃ¢y dung lop mang mot chieu gom n so nguyÃªn. Du lieu thanh phan gom:ten mang, so phan tu trong mang.  CÃ¡c hÃ m thÃ nh phan gom:
+ - HÃ m tao, ham huy
  - Nap chong toan tu nhap, xuat mang;
- - Hàm tính tong cac phan tu chan trong mang
+ - HÃ m tÃ­nh tong cac phan tu chan trong mang
  - Ham tinh tong cac phan tu le trong mang 
- - Hàm in phan tu co gia tri lon nhat lên màn hình
- - Hàm sap xep mang theo chieu tang dan 
-Viet CT nhap vao mot mang gom n so nguyên. In tong cac phan tu chan, phan tu le, phan tu có GTLN, mang sau khi sap xep lên màn hình */
+ - HÃ m in phan tu co gia tri lon nhat lÃªn mÃ n hÃ¬nh
+ - HÃ m sap xep mang theo chieu tang dan 
+Viet CT nhap vao mot mang gom n so nguyÃªn. In tong cac phan tu chan, phan tu le, phan tu cÃ³ GTLN, mang sau khi sap xep lÃªn mÃ n hÃ¬nh */
 #include <iostream>
 #include <algorithm> // su dung sort de sap xep 
 using namespace std;
@@ -30,7 +30,7 @@ class MangSoNguyen {
 		int tongphantuChan()const;
 		int tongphantuLe()const;
 		void inphantumax()const;
-		void sapxepmang()const;
+		void sapxepmang();
 		bool operator<(const MangSoNguyen& msn) const;
 };
 
